@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/baseview_shape_solid_dfdfdf_corner4" android:state_enabled="false"/>
+    <item android:drawable="@drawable/baseview_shape_solid_white_rect_blue_corner4" android:state_pressed="false"/>
+    <item android:drawable="@drawable/baseview_shape_solid_f7f7f7_rect_blue_corner4" android:state_pressed="true"/>
+</selector>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- TitleBar -->
+    <declare-styleable name="Title_Bar">
+        <!-- 标题 -->
+        <attr name="titleText" format="string"/>
+        <!-- 标题右侧紧贴箭头(一般下箭头) -->
+        <attr name="titleIcon" format="reference"/>
+        <!-- 标题栏右侧文字 -->
+        <attr name="titleRightText" format="string"/>
+        <!-- 标题栏主题, 右侧图标不会根据主题变色仍需要自己设置-->
+        <attr name="titleTheme">
+            <flag name="white" value="0"/>
+            <flag name="blue" value="1"/>
+            <flag name="transparent" value="2"/>
+            <flag name="none" value="3"/>
+            <flag name="commonTheme" value="4"/>
+        </attr>
+        <!-- 是否要沉浸式-->
+        <attr name="titleNeedImmersive" format="boolean"/>
+    </declare-styleable>
+    <!-- LJ table view -->
+    <declare-styleable name="Table_View">
+        <!-- 左侧文字 -->
+        <attr name="leftText" format="string"/>
+        <!-- 右侧文字 -->
+        <attr name="rightText" format="string"/>
+        <!-- 右侧文字hint -->
+        <attr name="rightTextHint" format="string"/>
+        <!-- 中间文字 -->
+        <attr name="contentText" format="string"/>
+        <!-- 是否显示右箭头 -->
+        <attr name="showArrow" format="boolean"/>
+        <!-- 左侧文字颜色 -->
+        <attr name="leftTextColor" format="reference|color"/>
+        <!-- 中间文字颜色 -->
+        <attr name="contentTextColor" format="reference|color"/>
+        <!-- 右侧文字颜色 -->
+        <attr name="rightTextColor" format="reference|color"/>
+        <!-- 右侧文字暗提示颜色 -->
+        <attr name="rightTextHintColor" format="reference|color"/>
+        <!-- 左侧显示的图片 -->
+        <attr name="leftImage" format="reference"/>
+        <!-- 左侧文字数目，不够的已空格补充 -->
+        <attr name="leftCharNum" format="integer"/>
+        <!-- 控件显示位置 -->
+        <attr name="type">
+            <flag name="top" value="0"/>
+            <flag name="center" value="1"/>
+            <flag name="bottom" value="2"/>
+            <flag name="single" value="3"/>
+        </attr>
+        <!-- 控件背景色：无背景、白色、可点击-->
+        <attr name="tableBackground">
+            <flag name="none" value="0"/>
+            <flag name="white" value="1"/>
+            <flag name="changeable" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LeftRightTextView">
+        <attr name="lrLeftText" format="string|reference"/>
+        <attr name="lrLeftTextSize" format="integer"/>
+        <attr name="lrLeftTextColor" format="reference|color"/>
+        <attr name="lrRightText" format="string|reference"/>
+        <attr name="lrRightTextSize" format="integer"/>
+        <attr name="lrRightTextColor" format="reference|color"/>
+        <attr name="lrRightTextGravityLeft" format="boolean"/>
+        <attr name="lrRightTextSingleLine" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TabView">
+        <attr name="tabViewStyle">
+            <flag name="styleSection" value="0"/>
+            <flag name="styleSwitch" value="1"/>
+        </attr>
+        <attr name="tabViewTheme">
+            <flag name="blue" value="0"/>
+            <flag name="white" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TabHostTabView">
+        <attr name="tabHostTabViewTheme">
+            <flag name="blue" value="0"/>
+            <flag name="white" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AverageTabView">
+        <attr name="aTabBackgroundColor" format="reference|color"/>
+        <attr name="aTabSelectTextColor" format="reference|color"/>
+        <attr name="aTabUnSelectTextColor" format="reference|color"/>
+        <attr name="aTabIndicatorDividerColor" format="reference|color"/>
+        <attr name="aTabIndicatorDividerType">
+            <flag name="aTabMatchParent" value="0"/>
+            <flag name="aTabWrapContent" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ButtonTextView">
+        <attr name="buttonTheme">
+            <flag name="blue" value="0"/>
+            <flag name="white" value="1"/>
+            <flag name="gray" value="2"/>
+            <flag name="green" value="3"/>
+            <flag name="red" value="4"/>
+        </attr>
+        <attr name="buttonShape">
+            <flag name="round" value="0"/>
+            <flag name="rectangle" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="wheelview">
+        <attr name="gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColorOut" format="color"/>
+        <attr name="textColorCenter" format="color"/>
+        <attr name="dividerColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="StatusBar">
+        <attr name="statusColor" format="color"/>
+    </declare-styleable>
+</resources>

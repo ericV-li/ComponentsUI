@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--全局通用色-->
+    <color name="lj_color_white">#ffffff</color>
+    <color name="lj_color_black">#20304b</color>
+    <color name="lj_color_blue">#0093ff</color>
+    <color name="lj_color_green">#16d96d</color>
+    <color name="lj_color_red">#ff553c</color>
+    <color name="lj_color_yellow">#fede14</color>
+    <color name="lj_color_light_yellow">#fffbde</color>
+    <color name="lj_color_deep_yellow">#F6992B</color>
+    <color name="lj_color_black_light">#6e788a</color>
+    <color name="lj_color_divider">#dfdfdf</color>
+    <color name="lj_color_transparent">#00000000</color>
+    <color name="lj_color_light_gray_hint">#bcc0c9</color>
+
+    <!-- 有意义的色值(baseview内部使用)-->
+    <color name="baseview_app_bg_color">#efefef</color>
+    <color name="baseview_title_text_color">#3f3f3f</color>
+    <color name="baseview_textcolor_main_gray">#999999</color>
+    <color name="baseview_textcolor_main_black">#68758e</color>
+    <color name="baseview_textcolor_second_gray">#dfdfdf</color>
+    <color name="baseview_textcolor_second_black">#666666</color>
+    <color name="baseview_table_view_unable">#50c5c5c5</color>
+    <color name="baseview_tab_view_white_60alpha">#99ffffff</color>
+    <color name="baseview_btn_normal_blue_color">#3b98e0</color>
+
+    <!-- 无意义的色值（baseview内部使用） ps:色值太近 不好描述-->
+    <color name="baseview_0084e5">#0084e5</color>
+    <color name="baseview_f7f7f7">#f7f7f7</color>
+    <color name="baseview_16d96d">#16d96d</color>
+    <color name="baseview_13c261">#13c261</color>
+    <color name="baseview_ff553c">#ff553c</color>
+    <color name="baseview_d94320">#d94320</color>
+    <color name="baseview_cc000000">#cc000000</color>
+
+    <!-- wheelview  -->
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+
+
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/title_bar"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="Button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_tab_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/tab_view"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="Toast"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_badge"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="BadgeView"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="SearchBar"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_switch_tab_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="SwitchTabView"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_popup_window"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="PopupWindow"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="AlertDialog+ListDialog"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_timer_select"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="TimerSelect"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_keyboard_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="NumberKeyboardDialog"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_icon_font_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/icon_font_text_view"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/refresh_layout"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_my_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/my_list_view"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_table_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/table_view"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_process_dialog_action"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/process_dialog_action"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_text_bubble_menu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/text_bubble_menu"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_scroll_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/scroll_list_view"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_lj_lrtextview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="LeftRightTextView"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_lj_clear_edit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="ClearEdit"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_lj_loading"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="LoadingView"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>

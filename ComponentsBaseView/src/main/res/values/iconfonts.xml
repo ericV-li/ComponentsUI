@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iconFont  -->
+    <string name="icon_font_offer">价</string>//锤子
+    <string name="icon_font_car">车</string>//小汽车
+    <string name="icon_font_back">&#x8fd4;</string>//返回
+    <string name="icon_font_cargo">&#x8d27;</string>//货物
+    <string name="icon_font_cargos">&#x6e90;</string>//货源
+    <string name="icon_font_up">&#x4e0a;</string>//上箭头
+    <string name="icon_font_down">&#x4e0b;</string>//下
+    <string name="icon_font_right">&#x53f3;</string>//右
+    <string name="icon_font_search">&#x641c;</string>//放大镜
+    <string name="icon_font_clock">&#x8ba1;</string>//闹钟
+    <string name="icon_font_order">&#x8ba2;</string>//订单
+    <string name="icon_font_user">&#x4eba;</string>//个人信息
+    <string name="icon_font_add">&#x52a0;</string>//加号
+    <string name="icon_font_close">&#x53c9;</string>//叉号
+    <string name="icon_font_phone">&#x8bdd;</string>//电话
+    <string name="icon_font_ok">&#x94a9;</string>//对号
+    <string name="icon_font_channel">&#x4f18;</string>//路线
+    <string name="icon_font_friend">&#x53f8;</string>//我的司机
+    <string name="icon_font_send">&#x53d1;</string>//发送通知
+    <string name="icon_font_offered">&#x62a5;</string>//已报价
+    <string name="icon_font_loading">&#x8f7d;</string>//加载
+    <string name="icon_font_point">&#x5706;</string>//黑点
+    <string name="icon_font_distance">&#x7a0b;</string>//距离
+
+    <string name="icon_font_time">&#x65f6;</string>//时间
+    <string name="icon_font_money">&#x94b1;</string>//钱
+
+
+</resources>

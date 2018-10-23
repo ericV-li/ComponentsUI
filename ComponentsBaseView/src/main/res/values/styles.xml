@@ -1,0 +1,143 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/baseview_base_progress_medium_holo</item>
+    </style>
+
+    <style name="LJProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:textColor">#252525</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="LJAlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="popupAnimation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+    </style>
+
+    <style name="style_divider_line">
+        <item name="android:layout_height">@dimen/lj_view_separator_line_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/lj_color_divider</item>
+    </style>
+
+    <style name="style_divider_vertical_line">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/lj_view_separator_line_height</item>
+        <item name="android:background">@color/lj_color_divider</item>
+    </style>
+
+    <style name="dialogWidthMatchParent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/lj_color_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/dialogAnimStyle</item>
+    </style>
+
+    <style name="dialogWidthMatchParentDimDisable" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/lj_color_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/dialogAnimStyle</item>
+    </style>
+
+    <style name="dialogAnimStyle" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/baseview_dialog_enter_bottom_top</item>
+        <item name="android:windowExitAnimation">@anim/baseview_dialog_out_top_to_bottom</item>
+    </style>
+
+    <!-- 主题：底色efefef，activity进入动画 从右到左-->
+    <style name="AppTheme_common_bg" parent="android:Theme.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/baseview_app_bg_color</item>
+    </style>
+    <!-- 主题：底色efefef，activity进入动画 从下到上-->
+    <style name="AppTheme_common_bg_bottom_in_out" parent="android:Theme.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivityBottomToTop</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/baseview_app_bg_color</item>
+    </style>
+    <!-- 主题：底色efefef，无 activity进入动画-->
+    <style name="AppTheme_common_bg_no_anim" parent="android:Theme.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/NoAnimationActivity</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/baseview_app_bg_color</item>
+    </style>
+    <!-- 主题：底色ffffff，activity进入动画 从右到左-->
+    <style name="AppTheme_white_bg" parent="android:Theme.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <!-- 主题：底色efefef，activity进入动画 从下到上-->
+    <style name="AppTheme_white_bg_bottom_in_out" parent="android:Theme.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivityBottomToTop</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <!-- 主题：底色efefef，无activity进入动画-->
+    <style name="AppTheme_white_bg_no_anim" parent="android:Theme.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/NoAnimationActivity</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="NoAnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:windowEnterAnimation">@anim/baseview_translate_right_in</item>
+        <item name="android:windowExitAnimation">@anim/baseview_translate_right_out</item>
+    </style>
+
+    <style name="AnimationActivityBottomToTop" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:windowEnterAnimation">@anim/baseview_translate_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/baseview_translate_bottom_out</item>
+    </style>
+
+</resources>

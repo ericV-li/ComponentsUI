@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <com.eric.ui.image.GridImageView
+        android:id="@+id/grid_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/gridview_selector"/>
+
+    <RelativeLayout
+        android:id="@+id/takephoto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffdfdfdf"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+
+
+        <ImageView
+            android:id="@+id/camrea_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/contact_gallery_camera"/>
+        <TextView
+            android:id="@+id/camrea_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/camrea_img"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="5dip"
+            android:text="拍摄照片"
+            android:textColor="#ff999999"
+            />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/btn_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="2dip"
+        android:background="@color/transparent"
+        android:src="@drawable/contact_image_unselect"/>
+
+
+</RelativeLayout>

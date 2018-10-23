@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.eric.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleText="LJLeftRightTextView"
+        app:titleTheme="blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="如果一行需要填充文字内容。建议用LeftRightTextView，用法如下："
+        android:textColor="@color/baseview_textcolor_main_black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/yiji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"
+            android:text="只显示左侧文字"
+            android:textColor="@android:color/white" />
+
+        <com.eric.view.LeftRightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            app:lrLeftText="会员名"
+            app:lrLeftTextColor="@android:color/white"
+            app:lrLeftTextSize="15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/erji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"
+            android:text="显示两侧文字"
+            android:textColor="@android:color/white" />
+
+        <com.eric.view.LeftRightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            app:lrLeftText="性别"
+            app:lrLeftTextColor="@android:color/white"
+            app:lrLeftTextSize="15"
+            app:lrRightText="男"
+            app:lrRightTextColor="@android:color/white"
+            app:lrRightTextSize="15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/sanji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"
+            android:text="两侧文字分局两边"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <com.eric.view.LeftRightTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                app:lrLeftText="昵称"
+                app:lrLeftTextColor="@android:color/white"
+                app:lrLeftTextSize="15"
+                app:lrRightText="李白"
+                app:lrRightTextColor="@android:color/white"
+                app:lrRightTextGravityLeft="false"
+                app:lrRightTextSize="15" />
+
+            <com.eric.view.LeftRightTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                app:lrLeftText="电话"
+                app:lrLeftTextColor="@android:color/white"
+                app:lrLeftTextSize="15"
+                app:lrRightText="15092188155"
+                app:lrRightTextColor="@android:color/white"
+                app:lrRightTextGravityLeft="false"
+                app:lrRightTextSize="15" />
+
+            <com.eric.view.LeftRightTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                app:lrLeftText="个人爱好"
+                app:lrLeftTextColor="@android:color/white"
+                app:lrLeftTextSize="15"
+                app:lrRightText="作诗、写诗、装逼"
+                app:lrRightTextColor="@android:color/white"
+                app:lrRightTextGravityLeft="false"
+                app:lrRightTextSize="15" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+

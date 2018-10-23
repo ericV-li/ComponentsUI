@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BaseView</string>
+    <string name="lj_text_loading">加载中...</string>
+</resources>

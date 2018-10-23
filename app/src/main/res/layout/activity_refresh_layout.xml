@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.eric.view.TitleBar
+        android:id="@+id/title_bar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="LJRefreshLayout"
+        app:titleTheme="blue" />
+
+    <com.eric.view.ClearEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="我叫ClearEditText,在这里刷刷存在感的" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <Button
+            android:id="@+id/btn_lj_refresh_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="点我进入RefreshLayout嵌套ListView界面" />
+
+        <Button
+            android:id="@+id/btn_lj_refresh_not_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="点我进入RefreshLayout嵌套非ListView界面" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <com.eric.view.TitleBar
+        android:id="@+id/title_bar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="RefreshLayout ListView"
+        app:titleTheme="blue" />
+
+    <com.eric.view.RefreshLayout
+        android:id="@+id/lj_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.eric.view.RefreshListView
+            android:id="@+id/lj_scroll_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:fadingEdge="none"
+            android:listSelector="@null"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+    </com.eric.view.RefreshLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TIP:LJRefreshLayout，下拉刷新控件，与RefreshListView配合使用。对谷歌提供的SwipeRefreshLayout进行封装。" />
+</LinearLayout>

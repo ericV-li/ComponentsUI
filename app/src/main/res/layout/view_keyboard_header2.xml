@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/lj_color_white"
+              android:orientation="vertical"
+              android:paddingBottom="10dp"
+              android:paddingTop="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="重量（吨）"
+        android:textColor="@color/lj_color_black"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_input1"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/baseview_shape_solid_efefef_stroke_dfdfdf_corner4"
+            android:hint="0.0"
+            android:paddingLeft="12dp"
+            android:textCursorDrawable="@drawable/baseview_shape_solid_blue_width_1px"
+            android:textSize="18sp"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="12dp"
+            android:background="@color/lj_color_divider"/>
+
+        <EditText
+            android:id="@+id/edt_input2"
+            android:layout_width="100dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/baseview_shape_solid_efefef_stroke_dfdfdf_corner4"
+            android:hint="0.0"
+            android:paddingLeft="12dp"
+            android:textCursorDrawable="@drawable/baseview_shape_solid_blue_width_1px"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>

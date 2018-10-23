@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.eric.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:titleText="LJClearEditText"
+        app:titleTheme="blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="如果在TextView中输入文字内容后想直接删除。建议用ClearEdit，用法如下："
+        android:textColor="@color/baseview_textcolor_main_black" />
+
+    <com.eric.view.ClearEditText
+        android:id="@+id/btn_lj_clear_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:hint="请输入任意你想输入的内容"
+        android:padding="12dp" />
+
+    <com.eric.view.ClearEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:hint="有焦点时，我的线会变色哦"
+        android:padding="12dp" />
+
+
+</LinearLayout>

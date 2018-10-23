@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_list_height">60dp</dimen>
+    <dimen name="image_selector_gridview_horizontalSpacing">2dp</dimen>
+    <dimen name="imageselector_title_height">48dp</dimen>
+    <dimen name="imageselect_bottom_height">48dp</dimen>
+
+
+    <dimen name="crop__bar_height">56dp</dimen>
+
+</resources>

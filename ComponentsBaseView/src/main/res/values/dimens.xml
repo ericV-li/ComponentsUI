@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="lj_textSize_large">16sp</dimen>
+    <dimen name="lj_textSize_xlarge">20sp</dimen>
+    <dimen name="lj_textSize_xxlarge">24sp</dimen>
+    <dimen name="lj_textSize_normal">15sp</dimen>
+    <dimen name="lj_textSize_small">12sp</dimen>
+    <dimen name="lj_textSize_litel_small">10sp</dimen>
+    <dimen name="lj_textSize_list">14sp</dimen>
+    <dimen name="lj_textSize_tab">14sp</dimen>
+
+    <dimen name="lj_view_separator_line_height">0.5dp</dimen>
+    <dimen name="lj_view_separator_line_height_bold">1dp</dimen>
+    <dimen name="lj_table_height">97.5dp</dimen>
+
+    <dimen name="lj_height_50dp">48dp</dimen>
+    <dimen name="lj_height_40dp">40dp</dimen>
+    <dimen name="lj_header_size">18sp</dimen>
+    <dimen name="lj_editor_size">16sp</dimen>
+
+</resources>

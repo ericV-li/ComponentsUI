@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33000000"
+    android:orientation="vertical">
+
+    <com.eric.view.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleNeedImmersive="false"
+        app:titleText="TitleBar"
+        app:titleTheme="blue" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:text="按钮1"
+                app:buttonShape="round"
+                app:buttonTheme="blue" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:text="按钮2"
+                app:buttonShape="round"
+                app:buttonTheme="gray" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:text="按钮3"
+                app:buttonShape="round"
+                app:buttonTheme="white" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:text="按钮3"
+                app:buttonShape="round"
+                app:buttonTheme="green" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:text="按钮3"
+                app:buttonShape="round"
+                app:buttonTheme="red" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="按钮1"
+
+                app:buttonShape="rectangle"
+                app:buttonTheme="blue" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="按钮2"
+                app:buttonShape="rectangle"
+                app:buttonTheme="gray" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="按钮3"
+                app:buttonShape="rectangle"
+                app:buttonTheme="white" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="按钮3"
+                app:buttonShape="rectangle"
+                app:buttonTheme="green" />
+
+            <com.eric.view.ButtonTextView
+                android:id="@+id/lj_button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="按钮3"
+                app:buttonShape="rectangle"
+                app:buttonTheme="red" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

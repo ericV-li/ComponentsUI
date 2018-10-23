@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.eric.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="LJTableView"
+        app:titleTheme="blue" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/darker_gray"
+                android:text="显示左边，右边文字"
+                android:textColor="@android:color/black" />
+
+            <com.eric.view.TableView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftText="会员名"
+                app:rightText="1695865488521"
+                app:tableBackground="changeable"
+                app:type="top" />
+
+            <com.eric.view.TableView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftText="会员名"
+                app:rightText="1695865488521"
+                app:tableBackground="changeable"
+                app:type="center" />
+
+            <com.eric.view.TableView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftText="会员名"
+                app:rightText="1695865488521"
+                app:tableBackground="changeable"
+                app:type="bottom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="显示左边，右边文字，右边文字hint"
+                android:textColor="@android:color/white" />
+
+            <com.eric.view.TableView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftText="会员名"
+                app:rightTextHint="1695865488521"
+                app:tableBackground="white"
+                app:type="single" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="显示左边，中间，右边文字，右边文字hint,隐藏右边箭头"
+                android:textColor="@android:color/white" />
+
+            <com.eric.view.TableView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentText="15686598855"
+                app:leftText="手机号"
+                app:rightTextColor="#3b98e0"
+                app:rightTextHint="修改"
+                app:showArrow="false"
+                app:tableBackground="white"
+                app:type="single" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="显示左边文字，右边多张图，点击监听"
+                android:textColor="@android:color/white" />
+
+            <com.eric.view.TableView
+                android:id="@+id/table_view4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftText="会员认证"
+                app:tableBackground="white"
+                app:type="single" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="显示左边图片,左边文字，中间图片"
+                android:textColor="@android:color/white" />
+
+            <com.eric.view.TableView
+                android:id="@+id/table_view5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:leftText="会员认证"
+                app:tableBackground="white"
+                app:type="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="显示左边图片，中间图片"
+                android:textColor="@android:color/white" />
+
+            <com.eric.view.TableView
+                android:id="@+id/table_view6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tableBackground="white"
+                app:type="center" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

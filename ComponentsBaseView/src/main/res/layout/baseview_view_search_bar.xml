@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/ll_titlebar"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+              android:background="#f7f7f7"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:paddingLeft="12dp"
+              android:paddingRight="12dp">
+
+    <LinearLayout
+        android:id="@+id/ll_back_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="11dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseview_back_common"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lly_edittext_container"
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/baseview_shape_solid_efefef_stroke_dfdfdf_corner4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+        <LinearLayout
+            android:id="@+id/lly_search_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txt_search_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/lj_color_black"
+                android:textSize="16sp"
+                tools:text="商品"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:src="@drawable/baseview_drop_down"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/lj_color_transparent"
+            android:drawableLeft="@drawable/baseview_search_color_gray"
+            android:drawablePadding="7dp"
+            android:gravity="center_vertical"
+            android:hint="输入商户名、地点"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/lj_color_black"
+            android:textColorHint="@color/lj_color_light_gray_hint"
+            android:textCursorDrawable="@drawable/baseview_shape_solid_blue_width_1px"
+            android:textSize="@dimen/lj_textSize_large"/>
+
+        <ImageView
+            android:id="@+id/img_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:src="@drawable/baseview_close_circle"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="取消"
+            android:textColor="@drawable/baseview_color_select_blue_gray"
+            android:textSize="@dimen/lj_textSize_large"/>
+    </LinearLayout>
+
+</LinearLayout>

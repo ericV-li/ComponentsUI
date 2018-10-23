@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.eric.view.ButtonTextView
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="只是文字Toast"
+        app:buttonShape="rectangle"
+        app:buttonTheme="blue"/>
+
+    <com.eric.view.ButtonTextView
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="只是文字图片"
+        app:buttonShape="rectangle"
+        app:buttonTheme="blue"/>
+
+    <com.eric.view.ButtonTextView
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="只是文字自定义图片"
+        app:buttonShape="rectangle"
+        app:buttonTheme="blue"/>
+
+</LinearLayout>
