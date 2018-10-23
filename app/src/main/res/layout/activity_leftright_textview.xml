@@ -117,7 +117,7 @@
                 app:lrLeftText="电话"
                 app:lrLeftTextColor="@android:color/white"
                 app:lrLeftTextSize="15"
-                app:lrRightText="15092188155"
+                app:lrRightText="150xxxxxxxx"
                 app:lrRightTextColor="@android:color/white"
                 app:lrRightTextGravityLeft="false"
                 app:lrRightTextSize="15" />

@@ -83,7 +83,7 @@ public class LoadingView extends RelativeLayout {
         View view = LayoutInflater.from(getContext()).inflate(R.layout.baseview_view_lj_progress_bar, this, true);
         mRelativeLayoutContainer = (RelativeLayout) view.findViewById(R.id.rly_container);
         mImageViewCenter = (ImageView) view.findViewById(R.id.img_center);
-        mLJProgressView = (ProgressView) view.findViewById(R.id.lj_progress_view);
+        mLJProgressView = (ProgressView) view.findViewById(R.id.progress_view);
         mObjectAnimator = ObjectAnimator.ofFloat(mLJProgressView, "rotation", 0, 360);
         mObjectAnimator.setDuration(2000);
         mObjectAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
